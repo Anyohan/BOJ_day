@@ -8,7 +8,7 @@ import java.util.*;
 public class snail{
     
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new                          InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new                             InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine()," ");
         //StringTokenizer 를 이용하여 엔터가 아닌 공백을 기준으로 문자를 잘라준다.
         //Scanner 의 split 함수와 유사 
