@@ -14,7 +14,7 @@ public class fib{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         sc.close();
-        if(n=0){
+        if(n==0){
             System.out.println("0");
         }
         else{
