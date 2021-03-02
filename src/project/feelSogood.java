@@ -10,20 +10,20 @@ public class feelSogood{
         int n = sc.nextInt();
         int feel = sc.nextInt();
         
-        gtg = sc.nextDouble();
-        gtb = sc.nextDouble();
-        btg = sc.nextDouble();
-        btb = sc.nextDouble();
+        gtog = sc.nextDouble();
+        gtob = sc.nextDouble();
+        btog = sc.nextDouble();
+        btob = sc.nextDouble();
         
         iu = new double[2][n];
         
         if(feel == 0){
-            iu[0][0] = gtg;
-            iu[1][0] = gtb;
+            iu[0][0] = gtog;
+            iu[1][0] = gtob;
         }
         else{
-            iu[0][0] = btg;
-            iu[1][0] = btb;
+            iu[0][0] = btog;
+            iu[1][0] = btob;
         }
         
         feelCheck(n);
@@ -35,8 +35,8 @@ public class feelSogood{
     static void feelCheck(int a){
         int idx = 1;
         while(idx != a){
-            iu[0][idx] = iu[0][idx-1]*gtg + iu[1][idx-1]*btg;
-            iu[1][idx] = iu[0][idx-1]*gtb + iu[1][idx-1]*btb;
+            iu[0][idx] = iu[0][idx-1]*gtog + iu[1][idx-1]*btog
+            iu[1][idx] = iu[0][idx-1]*gtob + iu[1][idx-1]*btob;
             idx++;
         }
     }
