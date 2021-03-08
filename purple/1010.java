@@ -1,9 +1,6 @@
 package project;
 import java.util.*;
 
-//bottom-up 반복문 
-//조합 성질 이용
-
 public class bridge{
     public static void main(String[] args) {
         int [][] com = new int[30][30];
