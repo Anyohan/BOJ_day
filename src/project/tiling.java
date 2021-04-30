@@ -2,6 +2,7 @@ package project;
 import java.util.*;
 
 //미완성
+//dp 로 풀기
 
 public class tiling{
     static int mod = 10007;
