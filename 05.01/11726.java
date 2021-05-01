@@ -1,8 +1,7 @@
 package project;
 import java.util.*;
 
-//미완성
-//dp 로 풀기
+//왜 배열의 크기를 입력크기에 맞춰서 할당하면 안되는가...
 
 public class tiling{
     public static void main(String[] args){
