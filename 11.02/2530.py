@@ -1,25 +1,25 @@
 #내 풀이
 
-a,b,c = map(int,input().split())
-d = int(input())
+#a,b,c = map(int,input().split())
+#d = int(input())
 
-m = (c+d)//60
-s = (c+d)%60
-r = b+m
-g = r//60
-k = a+g%24
+#m = (c+d)//60
+#s = (c+d)%60
+#r = b+m
+#g = r//60
+#k = a+g%24
  
 
-if k >= 24:
-    if r >= 60:
-        print(k-24,r%60,s)
-    else:
-        print(k-24,r,s)
-else:
-    if r >= 60:
-        print(k,r%60,s)
-    else:
-        print(k,r,s)
+#if k >= 24:
+    #if r >= 60:
+       # print(k-24,r%60,s)
+    #else:
+        #print(k-24,r,s)
+#else:
+    #if r >= 60:
+        #print(k,r%60,s)
+    #else:
+        #print(k,r,s)
 
 
 # 다른풀이
