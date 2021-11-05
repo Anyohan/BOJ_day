@@ -1,3 +1,2 @@
-## BORN TO BE PURPLE
-## ~~집에갈때까지~~...
+## BOJ_DAY
 ## still work out :computer:
